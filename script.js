@@ -1,4 +1,4 @@
-const key = "922d640a41600e607a4bc0d2f58cc61e";
+const key = "";   //use your openweathermap.org api key here
 const wrapper = document.querySelector(".wrapper"),
       inputPart = document.querySelector(".input-part "),
       infoTxt = document.querySelector(".input-txt"),
