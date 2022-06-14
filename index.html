@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2af9be53dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper ">
+        <header><i class="fa-solid fa-arrow-left"></i>Weather App</header>
+        <section class="input-part">
+            <p class="input-txt">Please enter a valid city name</p>
+            <input type="text" placeholder="Enter city name" spellcheck="false" required>
+            <div class="separator"></div>
+            <button>Get Device Location</button>
+        </section>
+        <section class="weather-part">
+            <img  alt="Weather icon">
+            <div class="temp">
+                <span class ="numb"></span>
+                <span class = "deg">°</span>C
+            </div>
+            <div class="weather"></div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span></span>
+            </div>
+            <div class="bottom-details">
+                 <div class="column feels">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class ="numb feelslikenumb"></span>
+                            <span class = "deg">°C</span>
+                        </div>
+                        <p>Feels like</p>
+                    </div>
+                 </div>
+                 <div class="column humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="details">
+                        <span class ="numb humidnumb"></span>
+                        <p>Humidity</p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+   </div>
+   <script src = "script.js"></script>
+</body>
+</html>
